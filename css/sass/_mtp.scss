@@ -1,0 +1,28 @@
+// Extended Big Picture Theme Styles for Magic, Theory, Practice
+
+$body-font-color: #000;
+$header-font-color: #000;
+
+#home #intro {
+    background: no-repeat center url('../img/splash.png');
+    height: 25rem;
+
+    @media screen and (max-width: 768px ){
+        height: 5rem;
+    }
+}
+
+#search-container button[type="submit"] {
+    color: $header-font-color;
+}
+
+a {
+    text-decoration: none;
+    color: $header-font-color;
+
+    transition: color .25s;
+
+    &:hover {
+        color: lighten($header-font-color,50%)
+    }
+}

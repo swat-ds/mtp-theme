@@ -1168,3 +1168,20 @@
     -ms-flex-pack: center;
         justify-content: center; }
   /* @end */ }
+
+#home #intro {
+  background: no-repeat center url("../img/splash.png");
+  height: 25rem; }
+  @media screen and (max-width: 768px) {
+    #home #intro {
+      height: 5rem; } }
+
+#search-container button[type="submit"] {
+  color: #000; }
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: color .25s; }
+  a:hover {
+    color: gray; }
