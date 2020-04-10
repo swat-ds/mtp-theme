@@ -1,5 +1,5 @@
-$base-font-size: 14px;
-$base-line-height: 21px;
+$base-font-size: 21px;
+$base-line-height: 28px;
 
 $heading-font: "Caudex", serif;
 $body-font: "Hind", sans-serif;
@@ -10,3 +10,17 @@ $spacing-l: $base-line-height;
 
 $border-gray: #eee;
 $blue: #3e8bff;
+
+// MTP Variables
+
+// Colors
+$maroon: #581845;
+$gold: #f1d556;
+$blue: #283a90;
+
+$body-font-color: #000;
+$background-color: $gold;
+$link-color: $blue;
+$hover-color: lighten($blue, 20%);
+$header-font-color: $maroon;
+
