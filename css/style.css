@@ -1210,16 +1210,6 @@
 .vvvvvvvv-popular a {
   font-size: 360%; }
 
-#home #intro {
-  background: no-repeat center url("../img/splash.jpg");
-  height: 25rem; }
-  @media screen and (max-width: 768px) {
-    #home #intro {
-      height: 5rem; } }
-
-#search-container button[type="submit"] {
-  color: #581845; }
-
 a {
   text-decoration: none;
   color: #581845;
@@ -1232,10 +1222,54 @@ a {
   margin-left: auto;
   margin-right: auto; }
 
-.browse.collections .record,
-.browse.exhibits .record {
-  max-height: 20rem;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: 20rem auto;
-  background-repeat: no-repeat; }
+header {
+  background-color: rgba(241, 213, 86, 0.75);
+  box-shadow: 0 0 7px rgba(50, 50, 50, 0.5); }
+
+#search-container, #advanced-form {
+  border-bottom: 2.5px solid #f1d556; }
+
+article#content {
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee; }
+
+.landing.browse.collections .collection.record {
+  box-shadow: 0 0 7px rgba(50, 50, 50, 0.5);
+  background-position: top center; }
+  .landing.browse.collections .collection.record .record-meta {
+    height: calc(20rem - 2 * 28px); }
+
+.records h3:after {
+  background-color: #f1d556; }
+
+.browse.collections .record-meta:before,
+.browse.exhibits .record-meta:before {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.landing .collection.record {
+  padding: 0; }
+
+.landing .record-meta {
+  transition: box-shadow .25s ease; }
+  .landing .record-meta span {
+    position: relative;
+    display: block;
+    color: #fff; }
+  .landing .record-meta span p {
+    opacity: 0;
+    transition: opacity .25s ease; }
+  .landing .record-meta:hover {
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.8) inset; }
+    .landing .record-meta:hover span p {
+      opacity: 1; }
+
+#collection-items {
+  -ms-flex-align: baseline;
+      align-items: baseline; }
+
+.item.hentry {
+  margin-bottom: 7px;
+  padding: 7px; }
+
+.item-meta .item-img img {
+  box-shadow: 0 0 7px rgba(50, 50, 50, 0.5); }

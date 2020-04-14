@@ -8,19 +8,6 @@
 // $link-color: #283a90;
 
 
-#home #intro {
-    background: no-repeat center url('../img/splash.jpg');
-    height: 25rem;
-
-    @media screen and (max-width: 768px ){
-        height: 5rem;
-    }
-}
-
-#search-container button[type="submit"] {
-    color: $header-font-color;
-}
-
 a {
     text-decoration: none;
     color: $header-font-color;
@@ -38,11 +25,77 @@ a {
     margin-right: auto;
 }
 
-.browse.collections .record,
-.browse.exhibits .record {
-    max-height: 20rem;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 20rem auto;
-    background-repeat: no-repeat;
+header {
+    background-color: rgba($gold,.75);
+    box-shadow: 0 0 $spacing-s rgba(50, 50, 50, 0.5);
+}
+
+#search-container, #advanced-form {
+    border-bottom: 2.5px solid $gold;
+}
+
+article#content {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+.landing.browse.collections .collection.record {
+    box-shadow: 0 0 $spacing-s rgba(50, 50, 50, 0.5);
+
+    .record-meta {
+        height: calc(20rem - 2 * #{$spacing-l});
+    }
+
+    background-position: top center;
+}
+
+.records h3 {
+    &:after {
+        background-color: $gold;
+    }
+}
+
+.browse.collections .record-meta:before,
+.browse.exhibits .record-meta:before {
+    background-color: rgba(0,0,0,.5);
+}
+
+.landing .collection.record {
+    padding: 0;
+}
+
+.landing .record-meta {
+
+    transition: box-shadow .25s ease;
+    span { 
+        position: relative;
+        display: block;
+        color: #fff;
+    }
+
+    span p {
+        opacity: 0;
+        transition: opacity .25s ease;
+    }
+
+    &:hover {
+        box-shadow: 0 0 100px rgba(255, 255, 255, 0.8) inset;
+        span p {
+            opacity: 1;
+        }
+}
+
+}
+
+#collection-items {
+    align-items: baseline;
+}
+
+.item.hentry {
+    margin-bottom: $spacing-s;
+    padding: $spacing-s;
+}
+
+.item-meta {
+    .item-img img { box-shadow: 0 0 $spacing-s rgba(50, 50, 50, 0.5); }
 }
