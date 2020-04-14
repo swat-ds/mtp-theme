@@ -99,3 +99,25 @@ article#content {
 .item-meta {
     .item-img img { box-shadow: 0 0 $spacing-s rgba(50, 50, 50, 0.5); }
 }
+
+.items.tags #content>h1{
+    display: none;
+}
+
+.navigation.items-nav.secondary-nav {
+    margin-bottom: $spacing-l;
+    &::after {
+        content: 'Explore Themes';
+        font-family: $heading-font; 
+        font-size: 1.75 * $base-font-size;
+        line-height: 1.5 * $base-line-height;
+        color: $header-font-color;
+    }
+    ul {
+        visibility: hidden;
+    }
+}
+
+.hTagcloud ul.popularity li {
+    border-radius: $spacing-l;
+}

@@ -1273,3 +1273,20 @@ article#content {
 
 .item-meta .item-img img {
   box-shadow: 0 0 7px rgba(50, 50, 50, 0.5); }
+
+.items.tags #content > h1 {
+  display: none; }
+
+.navigation.items-nav.secondary-nav {
+  margin-bottom: 28px; }
+  .navigation.items-nav.secondary-nav::after {
+    content: 'Explore Themes';
+    font-family: "Caudex", serif;
+    font-size: 36.75px;
+    line-height: 42px;
+    color: #581845; }
+  .navigation.items-nav.secondary-nav ul {
+    visibility: hidden; }
+
+.hTagcloud ul.popularity li {
+  border-radius: 28px; }
