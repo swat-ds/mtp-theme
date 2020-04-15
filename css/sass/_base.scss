@@ -1,8 +1,9 @@
 $base-font-size: 21px;
 $base-line-height: 28px;
 
-$heading-font: "Caudex", serif;
-$body-font: "Hind", sans-serif;
+$heading-font: "Barlow", sans-serif;
+$body-font: "EB Garamond", Georgia, Times, serif;
+// $body-font: "Barlow", sans-serif;
 
 $spacing-s: .25 * $base-line-height;
 $spacing-m: .5 * $base-line-height;
@@ -18,7 +19,7 @@ $maroon: #581845;
 $gold: #f1d556;
 $blue: #283a90;
 
-$body-font-color: #000;
+$body-font-color: darken($maroon,10%);
 $background-color: $gold;
 $link-color: $blue;
 $hover-color: lighten($blue, 20%);

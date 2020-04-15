@@ -7,6 +7,9 @@
 // $background-color: #f1d556;
 // $link-color: #283a90;
 
+html {
+    color: $body-font-color;
+}
 
 a {
     text-decoration: none;
@@ -23,11 +26,19 @@ a {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 header {
     background-color: rgba($gold,.75);
     box-shadow: 0 0 $spacing-s rgba(50, 50, 50, 0.5);
+
+    #site-title {
+        // font-family: "Caudex", serif;
+        font-style: bold;
+        font-size: $base-font-size * 2;
+        line-height: $base-line-height * 1.5;
+    }
 }
 
 #search-container, #advanced-form {
@@ -37,6 +48,9 @@ header {
 article#content {
     border-right: 1px solid #eee;
     border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding-top: $spacing-s;
+
 }
 
 .landing.browse.collections .collection.record {

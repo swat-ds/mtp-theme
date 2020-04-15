@@ -22,7 +22,7 @@
     <!-- Stylesheets -->
     <?php
     queue_css_file(array('normalize','jquery.mmenu', 'jquery.mmenu.positioning','style'));
-    queue_css_url('https://fonts.googleapis.com/css?family=Hind|Caudex:400,400i,700,700i');
+    // queue_css_url('https://fonts.googleapis.com/css?family=Hind|Caudex:400,400i,700,700i');
     echo head_css();
     ?>
 

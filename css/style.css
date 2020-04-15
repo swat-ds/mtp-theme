@@ -1,4 +1,44 @@
 @charset "UTF-8";
+/* eb-garamond-regular - latin */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/eb-garamond-v13-latin-regular.woff2") format("woff2"), url("../fonts/eb-garamond-v13-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* eb-garamond-regular - latin */
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("../fonts/eb-garamond-v13-latin-italic.woff2") format("woff2"), url("../fonts/eb-garamond-v13-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* barlow-regular - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Barlow Regular"), local("Barlow-Regular"), url("../fonts/barlow-v4-latin-regular.woff2") format("woff2"), url("../fonts/barlow-v4-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* barlow-italic - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Barlow Italic"), local("Barlow-Italic"), url("../fonts/barlow-v4-latin-italic.woff2") format("woff2"), url("../fonts/barlow-v4-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* caudex-700 - latin */
+@font-face {
+  font-family: 'Caudex';
+  font-style: bold;
+  font-weight: 700;
+  src: local("Caudex Bold"), local("Caudex-Bold"), url("../fonts/caudex-v9-latin-700.woff2") format("woff2"), url("../fonts/caudex-v9-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
 @font-face {
   font-family: 'Linearicons-Free';
   src: url("../fonts/Linearicons-Free.eot?w118d");
@@ -10,7 +50,7 @@
   * {
     box-sizing: border-box; }
   html {
-    font-family: "Hind", sans-serif;
+    font-family: "EB Garamond", Georgia, Times, serif;
     font-weight: 400;
     font-size: 21px;
     line-height: 28px;
@@ -23,7 +63,7 @@
     text-decoration: none;
     color: #283a90; }
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Caudex", serif;
+    font-family: "Barlow", sans-serif;
     margin: 28px 0; }
   h1 {
     font-size: 36.75px;
@@ -50,7 +90,7 @@
   table {
     margin: 28px auto; }
   thead {
-    font-family: "Caudex", serif; }
+    font-family: "Barlow", sans-serif; }
   tr {
     border-bottom: 1px solid #eee; }
   /* @group ----- Form ----- */
@@ -146,7 +186,7 @@
     overflow-x: hidden; }
   #site-title {
     font-size: 26.25px;
-    font-family: "Caudex", serif;
+    font-family: "Barlow", sans-serif;
     margin-right: auto; }
   #site-title img {
     max-height: 42px;
@@ -194,7 +234,7 @@
         justify-content: center;
     border-bottom: 1px solid #eee; }
   #search-container legend {
-    font-family: "Caudex", serif;
+    font-family: "Barlow", sans-serif;
     font-size: 23.625px;
     margin-bottom: 7px; }
   #search-form {
@@ -384,7 +424,7 @@
   /* @end */
   /* @group ----- Search Results ----- */
   .record-type {
-    font-family: "Caudex", serif;
+    font-family: "Barlow", sans-serif;
     width: 100%;
     text-transform: uppercase;
     margin-bottom: 7px; }
@@ -575,7 +615,7 @@
   #search-filters > ul > li {
     background-color: #eee;
     padding: 7px;
-    font-family: "Caudex", serif;
+    font-family: "Barlow", sans-serif;
     text-transform: uppercase;
     display: inline-block; }
   #item-filters > ul ul,
@@ -764,7 +804,7 @@
   .browse .image + .record-meta {
     padding-left: 0; }
   .view-items-link {
-    font-family: "Caudex", serif;
+    font-family: "Barlow", sans-serif;
     text-transform: uppercase;
     font-size: 21px;
     line-height: 28px;
@@ -849,7 +889,7 @@
     list-style: decimal;
     font-size: 31.5px;
     line-height: 42px;
-    font-family: "Caudex", serif; }
+    font-family: "Barlow", sans-serif; }
   #exhibit-pages li {
     margin: 28px 0; }
   .exhibit-block {
@@ -880,7 +920,7 @@
     top: 50%;
     transform: translateY(-50%);
     width: 10%;
-    font-family: "Caudex", serif;
+    font-family: "Barlow", sans-serif;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
     padding: 27px 0;
@@ -1068,7 +1108,7 @@
   .collection-meta .mobile-toggle {
     display: block;
     text-transform: uppercase;
-    font-family: "Caudex", serif;
+    font-family: "Barlow", sans-serif;
     padding: 13px 0;
     border: solid #eee;
     border-width: 1px 0; }
@@ -1210,6 +1250,9 @@
 .vvvvvvvv-popular a {
   font-size: 360%; }
 
+html {
+  color: #300d26; }
+
 a {
   text-decoration: none;
   color: #581845;
@@ -1225,13 +1268,19 @@ a {
 header {
   background-color: rgba(241, 213, 86, 0.75);
   box-shadow: 0 0 7px rgba(50, 50, 50, 0.5); }
+  header #site-title {
+    font-style: bold;
+    font-size: 42px;
+    line-height: 42px; }
 
 #search-container, #advanced-form {
   border-bottom: 2.5px solid #f1d556; }
 
 article#content {
   border-right: 1px solid #eee;
-  border-left: 1px solid #eee; }
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding-top: 7px; }
 
 .landing.browse.collections .collection.record {
   box-shadow: 0 0 7px rgba(50, 50, 50, 0.5);
@@ -1281,7 +1330,7 @@ article#content {
   margin-bottom: 28px; }
   .navigation.items-nav.secondary-nav::after {
     content: 'Explore Themes';
-    font-family: "Caudex", serif;
+    font-family: "Barlow", sans-serif;
     font-size: 36.75px;
     line-height: 42px;
     color: #581845; }

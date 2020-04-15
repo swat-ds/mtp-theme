@@ -1,3 +1,54 @@
+/* eb-garamond-regular - latin */
+@font-face {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/eb-garamond-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/eb-garamond-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* eb-garamond-regular - latin */
+@font-face {
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/eb-garamond-v13-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/eb-garamond-v13-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* barlow-regular - latin */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Barlow Regular'), local('Barlow-Regular'),
+         url('../fonts/barlow-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* barlow-italic - latin */
+  @font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Barlow Italic'), local('Barlow-Italic'),
+         url('../fonts/barlow-v4-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-v4-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+/* caudex-700 - latin */
+@font-face {
+    font-family: 'Caudex';
+    font-style: bold;
+    font-weight: 700;
+    src: local('Caudex Bold'), local('Caudex-Bold'),
+         url('../fonts/caudex-v9-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/caudex-v9-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  
 @import "base";
 @import "linearicons";
 
