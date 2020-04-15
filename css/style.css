@@ -33,13 +33,6 @@
 
 /* caudex-700 - latin */
 @font-face {
-  font-family: 'Caudex';
-  font-style: bold;
-  font-weight: 700;
-  src: local("Caudex Bold"), local("Caudex-Bold"), url("../fonts/caudex-v9-latin-700.woff2") format("woff2"), url("../fonts/caudex-v9-latin-700.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
-
-@font-face {
   font-family: 'Linearicons-Free';
   src: url("../fonts/Linearicons-Free.eot?w118d");
   src: url("../fonts/Linearicons-Free.eot?#iefixw118d") format("embedded-opentype"), url("../fonts/Linearicons-Free.woff2?w118d") format("woff2"), url("../fonts/Linearicons-Free.woff?w118d") format("woff"), url("../fonts/Linearicons-Free.ttf?w118d") format("truetype"), url("../fonts/Linearicons-Free.svg?w118d#Linearicons-Free") format("svg");
@@ -1275,6 +1268,9 @@ header {
 
 #search-container, #advanced-form {
   border-bottom: 2.5px solid #f1d556; }
+
+.mm-listview li {
+  font-size: 21px; }
 
 article#content {
   border-right: 1px solid #eee;
