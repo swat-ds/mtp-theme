@@ -1323,6 +1323,9 @@ article#content {
 .item-meta .item-img img {
   box-shadow: 0 0 7px rgba(50, 50, 50, 0.5); }
 
+.item-meta span {
+  display: none; }
+
 .items.tags #content > h1 {
   display: none; }
 

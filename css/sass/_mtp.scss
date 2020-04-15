@@ -112,6 +112,10 @@ article#content {
 
 .item-meta {
     .item-img img { box-shadow: 0 0 $spacing-s rgba(50, 50, 50, 0.5); }
+
+    span {
+        display: none;
+    }
 }
 
 .items.tags #content>h1{
