@@ -143,3 +143,10 @@ article#content {
 .hTagcloud ul.popularity li {
     border-radius: $spacing-l;
 }
+
+.bibliography li {
+  margin-bottom: .5rem;
+  list-style: none;
+  padding-left: 2rem;
+  text-indent: -2rem;
+}
