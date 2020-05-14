@@ -1345,3 +1345,7 @@ article#content {
   padding-left: 2rem;
   text-indent: -2rem;
 }
+
+.contributors .contributor span {
+	font-weight: bold;
+}
